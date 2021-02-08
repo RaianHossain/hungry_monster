@@ -1,0 +1,49 @@
+.formControl{
+    width: 30%;
+}
+.btn{
+    background-color: #c4603f;
+    border-radius: 0%;
+    color: white;
+}
+.secondDiv{
+    
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+}
+#food{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:30px;
+}
+.foodImage{
+    width: 100%;
+    border-radius: 5px;
+}
+.nameDiv{
+    height: 70px;
+    text-align: center;
+    background-color: #ede7e6;
+}
+.foodName{
+    padding: 10px;
+}
+.ingTitle{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.detailsName{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.detailsDiv{
+    width: 50%;
+    margin: auto;
+}
+.detailsFoodImage{
+    width: 100%;
+    height: 380px;
+    border-radius: 5px;
+}
